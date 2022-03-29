@@ -23,7 +23,8 @@ int main(void){
 
     int round = 0; // Counts the round number
 
-    //The array, words, holds random colors that could be in the message
+    //The array, words, holds random colors that could be in the message. Any desired colour can be included in this array. Pink, blue and green are 
+    //used here.
     //The array, message, creates a color sequence, with a length of 4, using the available colors in the array, words
     //The array, message_in_numbers, holds the created color sequence numerically (1 = pink, 2 = blue, 3 = green)
     char *words[3] = {"pink" , "blue" , "green"};
